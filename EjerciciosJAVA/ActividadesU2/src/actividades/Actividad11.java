@@ -15,7 +15,7 @@ public class Actividad11 {
         } else if (nota == 5) {
             System.out.println("suficiente");
         } else if (nota == 6) {
-            System.out.println("ien");
+            System.out.println("Bien");
         } else if (nota == 7 || nota == 8) {
             System.out.println("Notable");
         } else if (nota == 9 || nota == 10) {
