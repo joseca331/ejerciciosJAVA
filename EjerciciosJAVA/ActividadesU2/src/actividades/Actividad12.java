@@ -8,7 +8,7 @@ public class Actividad12 {
 
 		 int dia,mes,año;
 		 
-		 //Solicita al usuario que introduzca el día, mes y año
+		 //Solicitar al usuario que introduzca el día, mes y año
 	        System.out.print("Introduce el día: ");
 	         dia = sc.nextInt();
 
