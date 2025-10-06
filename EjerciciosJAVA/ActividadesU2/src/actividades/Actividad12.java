@@ -40,6 +40,8 @@ public class Actividad12 {
 	                    break;
 	                    
 	                    // Mes inválido
+	                    
+	                    
 	                default:
 	                    fechaCorrecta = false;
 	            }
@@ -48,7 +50,7 @@ public class Actividad12 {
 	        if (fechaCorrecta) {
 	            System.out.println("La fecha es correcta.");
 	        } else {
-	            System.out.println("La fecha no es válida.");
+	            System.err.println("La fecha no es válida.");
 	        }
 
 	}
