@@ -8,7 +8,7 @@ public class Ejercicio6 {
 		
 		System.out.println("los multiplos de 7 son: ");
 		// for que muestre los multiplos de 7 hasta el 100
-        for (int i = 7; i < 100; i += 7) {
+        for (int i =0; i < 100; i += 7) {
         	            System.out.println(i);
         }}
         }
