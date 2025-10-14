@@ -10,12 +10,15 @@ public class Ejercicios8 {
         int numero = scanner.nextInt();
 
         // Calcular el factorial
+        
         long factorial = 1;
         for (int i = 1; i <= numero; i++) {
             factorial *= i;
         }
 
+        
+        
         // Mostrar el resultado
         System.out.println("El factorial de " + numero + " es: " + factorial);
-    }
+    }   
 }
