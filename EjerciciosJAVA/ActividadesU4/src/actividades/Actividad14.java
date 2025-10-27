@@ -12,10 +12,14 @@ public class Actividad14 {
         }
     }
 
-    // Método principal para probar la función
     public static void main(String[] args) {
-        int n = 10; // Cambia este valor para obtener otro término
-        System.out.println("El término " + n + " de la serie de Fibonacci es: " + fibonacci(n));
+    	
+    	
+    	
+        int n = 8; 
+        
+        
+        System.out.println("El término " + n + " de la serie de fibonacci es: " + fibonacci(n));
     }
 }
 

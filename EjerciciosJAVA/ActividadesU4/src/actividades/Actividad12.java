@@ -20,14 +20,11 @@ public class Actividad12 {
                 if (b != 0) {
                     resultado = (double) a / b;
                 } else {
-                    System.out.println("Error: división por cero.");
-                    resultado = Double.NaN; // Resultado no válido
+                    throw new Exception("no existe la operacion");
                 }
                 break;
             default:
-                System.out.println("Operación no válida.");
-                resultado = Double.NaN;
-        }
+               throw new Exception("no existe la operacion");
 
         return resultado;
     }
