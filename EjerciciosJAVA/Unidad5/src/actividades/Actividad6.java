@@ -31,7 +31,8 @@ public class Actividad6 {
 	    public static void ordenarYMostrar(int[] puntos, String mensaje) {
 	    	
 	    	
-	    
+	   
+	   
 	    Arrays.sort(puntos);
         System.out.println("\n" + mensaje);
         mostrarArray(puntos);
