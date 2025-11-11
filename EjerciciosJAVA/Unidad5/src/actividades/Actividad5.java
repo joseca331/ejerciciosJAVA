@@ -46,7 +46,6 @@ public class Actividad5 {
                      System.out.println("→ Igual");
                  }
              }
-
              if (fallos > 0) {
                  System.out.println("\nNo has acertado todos los dígitos. Intenta de nuevo.\n");
              }

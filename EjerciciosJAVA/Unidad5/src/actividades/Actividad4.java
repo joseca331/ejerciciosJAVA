@@ -35,7 +35,9 @@ public class Actividad4 {
         } while (favoritos.length > 0);
 
         sc.close();
-    }
+	}
+	
+	
 
     public static void mostrarTabla(int[] tabla) {
         for (int elemento : tabla) {
