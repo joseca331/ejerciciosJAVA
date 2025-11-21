@@ -1,11 +1,9 @@
 package ejercicios;
 
-public class Ejercicio6 {
+public class Ejercicio10 {
 
 	public static void main(String[] args) {
-		
-		System.out.println("");
-		
+		// TODO Auto-generated method stub
 
 	}
 
