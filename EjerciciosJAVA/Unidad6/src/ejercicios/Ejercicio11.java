@@ -2,8 +2,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio10 {
-	
+public class Ejercicio11 {
 	public static char codifica(char conjunto1[], char conjunto2[], char c) {
         // Pasamos el carácter a minúscula para unificar la salida
         char minuscula = Character.toLowerCase(c);
@@ -17,10 +16,10 @@ public class Ejercicio10 {
         
         
         // Buscamos si está en el conjunto1
-        for (int i = 0; i < conjunto1.length; i++) {
-            if (minuscula == conjunto1[i]) {
+        for (int i = 0; i < conjunto2.length; i++) {
+            if (minuscula == conjunto2[i]) {
             	
-            		return conjunto2[i];
+            		return conjunto1[i];
            }}
         return minuscula;    
     }
@@ -42,7 +41,7 @@ public class Ejercicio10 {
         }
 
         // Mostramos el resultado
-        System.out.println("Texto codificado: " + resultado.toString());
+        System.out.println("Texto decodificado: " + resultado.toString());
 
 		
 		
@@ -56,3 +55,6 @@ public class Ejercicio10 {
 	
 	
 }
+
+	
+
